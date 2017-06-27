@@ -1,0 +1,24 @@
+{
+  "name": "josh-taylor/sage-svg",
+  "type": "package",
+  "license": "MIT",
+  "description": "WordPress package to enable a blade directive to use SVG images inline with Sage 9",
+  "homepage": "https://github.com/josh-taylor",
+  "authors": [
+    {
+      "name": "Josh Taylor",
+      "email": "joshotaylor@gmail.com"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "autoload": {
+    "files": [
+      "sage-svg.php"
+    ]
+  },
+  "require": {
+    "nothingworks/blade-svg": "^0.2.1"
+  }
+}
