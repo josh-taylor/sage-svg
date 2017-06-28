@@ -17,6 +17,8 @@ composer require josh-taylor/sage-svg
 
 The package will automatically register a blade directive to inline your SVGs.
 
+Place all your SVGs inside `resources/assets/icons` in your Sage 9 installation and you are good to go. **Recommend to run all your SVGs through [SVGO](https://jakearchibald.github.io/svgomg/) first!**
+
 ```html
 <a href="/settings">
     @svg('cog', 'icon-lg') Settings
