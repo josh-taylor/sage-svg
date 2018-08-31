@@ -19,6 +19,6 @@
     ]
   },
   "require": {
-    "nothingworks/blade-svg": "^0.2.1"
+    "nothingworks/blade-svg": "^0.3.0"
   }
 }

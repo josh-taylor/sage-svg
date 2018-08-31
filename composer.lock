@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f614114421a21c144601d69f1f96aa3",
+    "content-hash": "519b7a54e61d9ddb3666aa92b47aee6e",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -224,16 +224,16 @@
         },
         {
             "name": "nothingworks/blade-svg",
-            "version": "v0.2.1",
+            "version": "v0.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/adamwathan/blade-svg.git",
-                "reference": "62097205369bb5b046b30dcfe19fe6418c0cb678"
+                "reference": "8747c4ff2c52f1a78a4b2aaae765cc961d9c9430"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/adamwathan/blade-svg/zipball/62097205369bb5b046b30dcfe19fe6418c0cb678",
-                "reference": "62097205369bb5b046b30dcfe19fe6418c0cb678",
+                "url": "https://api.github.com/repos/adamwathan/blade-svg/zipball/8747c4ff2c52f1a78a4b2aaae765cc961d9c9430",
+                "reference": "8747c4ff2c52f1a78a4b2aaae765cc961d9c9430",
                 "shasum": ""
             },
             "require": {
@@ -245,6 +245,13 @@
                 "phpunit/phpunit": "^5.5"
             },
             "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "BladeSvg\\BladeSvgServiceProvider"
+                    ]
+                }
+            },
             "autoload": {
                 "psr-4": {
                     "BladeSvg\\": "src/"
@@ -263,7 +270,7 @@
                     "email": "adam.wathan@gmail.com"
                 }
             ],
-            "time": "2017-06-09T13:05:37+00:00"
+            "time": "2018-07-09T14:08:00+00:00"
         },
         {
             "name": "paragonie/random_compat",
